@@ -21,7 +21,7 @@ function App() {
     <div className="main-container">
    <div className="display-container">
    <TodoInput  addList={addList} />
-      <h1>TO - Do</h1>
+      <h1>TO - Do Application</h1>
       <hr />
       {
         listTodo.map((listItem,i)=>{
